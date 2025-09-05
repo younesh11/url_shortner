@@ -1,0 +1,32 @@
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python bytecode / builds ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+env/
+.venv/
+venv/
+ENV/
+
+# --- Tests / coverage caches ---
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# --- SQLite / local data ---
+*.db
+*.sqlite*
+backend/urls.db
+/data/
+
+# --- Streamlit runtime & secrets ---
+.streamlit/
